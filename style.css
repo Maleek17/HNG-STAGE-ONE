@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 body{
-    background: hsl(185, 75%, 39%);
+    /* background: hsl(258, 31%, 62%); */
+    background: linear-gradient(to right, hsl(185, 61%, 57%), hsl(258, 66%, 61%)), rgb(207, 152, 205);
 }
 .card-top{
     border-radius: 15px;
@@ -62,17 +63,20 @@ h2{
     color: hsl(227, 10%, 46%);
     font-size: 20px;
 }
-.profile-button {
-    background-color:hsl(185, 75%, 39%);
-    width: 50%;
+.profile-button{
+    margin: auto;
+}
+.profile-button button {
+    background-color:hsl(185, 52%, 34%);
+    width: 235px;
     color: #fff;
-    padding: 3px 2px;
-    border: none;
+    padding: 6px;
+    border: 2px solid white;
     border-radius: 10px;
     cursor: pointer;
     font-weight: bold;
     text-align: center;
-    margin: auto;
+    /* margin: auto; */
 
 }
 a{
