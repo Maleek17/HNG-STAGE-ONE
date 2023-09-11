@@ -6,6 +6,7 @@
 body{
     /* background: hsl(258, 31%, 62%); */
     background: linear-gradient(to right, hsl(185, 61%, 57%), hsl(258, 66%, 61%)), rgb(207, 152, 205);
+    padding: 0 8px;
 }
 .card-top{
     border-radius: 15px;
@@ -86,8 +87,17 @@ a{
 }
 @media screen and (max-width:500px) {
     .container{
-        max-width: 300px;
-        height: 450px;
+        display: flex;
+        flex-direction: column;
+        height: 40rem;
+        justify-content: center;
+        align-items: center;
+    }
+    /* .card-top{
+        height: 200px;
+    } */
+    p{
+        font-weight: bold;
     }
     .main-img{
 
@@ -95,6 +105,7 @@ a{
     }
     .foot{
         margin-top: 32px;
+        row-gap: 20px;
     }
     
 }
